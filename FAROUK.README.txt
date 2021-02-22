@@ -1,0 +1,10 @@
+sudo apt install dh-autoreconf
+  
+  $ ./autogen.sh
+  
+  $ ./configure
+  $ make
+  $ make check
+  $ make install
+  
+  $ sudo ldconfig
